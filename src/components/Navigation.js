@@ -2,7 +2,7 @@ import React from 'react'
 
 import styled from 'styled-components'
 
-import { NavLink, Route, useRouteMatch, useLocation, Switch } from 'react-router-dom'
+import { NavLink, Route, Switch } from 'react-router-dom'
 
 import TicketLink from '../components/TicketLink'
 import NotFoundLink from '../components/NotFoundLink'
