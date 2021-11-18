@@ -22,14 +22,6 @@ module.exports = merge(common, {
   },
   plugins: [
     new CleanWebpackPlugin(),
-    new CopyWebpackPlugin({
-      patterns: [
-        { 
-          from: './public',
-          noErrorOnMissing: true
-        }
-      ]
-    }),
     index
   ]
 });
